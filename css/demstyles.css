@@ -1,0 +1,62 @@
+.main-menu ul {
+    display: flex;
+}
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+}
+h1, h2, h3, p, li {
+    font-family: 'Roboto', serif;
+}
+.title-content {
+    text-align: center;
+}
+.to-do-list {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 5% 3% 5% 3%;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    text-align: center;
+}
+ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+li {
+    scale: 100% 100%;
+    max-width: 95%;
+    margin: 0 auto 10px auto;
+    transition: .25 all;
+}
+li:hover {
+    scale: 101% 101%;
+    transition: .25s all;
+}
+li.not-done {
+    color:red;
+}
+
+li.done {
+    color: #ffffff;
+    background-color: green;
+    border-radius: 5px;
+    transition: .25s all;
+}
+li.done a {
+    color:#ffffff;
+    text-decoration: none;
+    display: block;
+    padding:1.1%;
+    /* transition: .75s all; */
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+a:hover {
+    /* text-decoration: underline; */
+    /* transition: .75s all; */
+}
