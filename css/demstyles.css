@@ -48,6 +48,11 @@ li {
     margin: 0 auto 10px auto;
     transition: .25 all;
 }
+
+ul ul {
+    padding-left:20px;
+    list-style-type: disc;
+}
 .to-do-list li:hover {
     scale: 101% 101%;
     transition: .25s all;
@@ -105,4 +110,10 @@ a.to-do-button:hover {
 .completed-work-wrapper:hover {
     opacity: 1;
     transition: .50s all;
+}
+
+.keep-em-seperated {
+    display: block;
+    height: 2px;
+    background-color: #909090;
 }
