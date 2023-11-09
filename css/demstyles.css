@@ -22,7 +22,7 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3, p, li {
+h1, h2, h3, h4, p, li, a {
     font-family: 'Roboto', serif;
 }
 .title-content {
@@ -72,4 +72,37 @@ li.done a {
 a {
     color: #333333;
     text-decoration: none;
+}
+
+.content-card {
+    background-color: #ffffff;
+    padding: 5%;
+    border-radius: 15px;
+    margin-bottom: 35px;
+}
+
+a.to-do-button {
+    background-color: #5daf68;
+    color: #ffffff;
+    padding: 1%;
+    border-radius: 5px;
+    display: block;
+    max-width: 140px;
+    text-align: center;
+    transition: .50s all;
+}
+
+a.to-do-button:hover {
+    background-color: #52995c;
+    transition: .50s all;
+}
+
+.completed-work-wrapper {
+    opacity: .5;
+    transition: .50s all;
+}
+
+.completed-work-wrapper:hover {
+    opacity: 1;
+    transition: .50s all;
 }
